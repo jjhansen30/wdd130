@@ -74,3 +74,7 @@ footer {
 footer a {
     text-decoration: none;
 }
+
+footer h3 a:hover {
+    text-decoration: underline;
+}

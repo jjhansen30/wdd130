@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Square+Peg&display=swap');
+
+
+/* Main sections of html */
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,22 +10,40 @@
 
 body {
     background-color: #20620C;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #ffffff;
 }
 
-#logo-link {
-    display: inline;
+footer {
+    background-color: #ffffff;
+    padding: 32px;
 }
 
-#icon {
-    width: 80px;
+/* End of main sections */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Square Peg'
 }
 
-nav {
-    display: inline;
+h2 {
+    margin: 0;
+}
+
+p {
+    font-family: Nunito, Helvetica, sans-serif;
+}
+
+.logo, .icon {
+    width: 80px
+}
+
+#hero-img {
+    width: 100%;
 }
 
 nav a {
@@ -28,6 +51,19 @@ nav a {
     font-size: 2em;
     margin: 0 2em;
     text-decoration: none;
+}
+
+.book, .join {
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 12px;
 }
 
 nav a:hover {
@@ -48,11 +84,7 @@ main section {
 
 #background {
     height: 725px;
-}
-
-.book, .join {
-    background-color: #ffffff;
-    text-decoration: none;
+    margin: 100px 0;
 }
 
 .book:hover, .join:hover {
@@ -65,16 +97,38 @@ main section {
 
 .msg {
     background-color: #AAD181;
-}
-
-footer {
-    background-color: #ffffff;
-}
-
-footer a {
-    text-decoration: none;
+    line-height: 1.5em;
+    margin: 100px;
 }
 
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+.home-title {
+    font-size: 2em;
+}
+
+.msg p {
+    font-size: .8em;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 32px;
+}
+
+main h2 {
+    margin-bottom: 50px;
+}
+
+#hero {
+    margin-bottom: 100px;
 }

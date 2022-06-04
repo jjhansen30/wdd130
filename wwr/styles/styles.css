@@ -151,7 +151,7 @@ footer h3 a:hover {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1f);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .card-img {

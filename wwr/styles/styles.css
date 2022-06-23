@@ -99,11 +99,6 @@ main section {
     text-align: center;
 }
 
-#background {
-    height: 725px;
-    margin: 100px 0;
-}
-
 .book:hover, .join:hover {
     background-color: #20620C;
 }
@@ -126,7 +121,7 @@ footer h3 a:hover {
 }
 
 .home-title {
-    font-size: 2em;
+
 }
 
 #hero {
@@ -190,6 +185,8 @@ main h2 {
 }
 
 #background {
+    height: 725px;
+    margin: 100px 0;
     grid-column: 1/11;
     grid-row: 4/9;
     background-color: #AAD181;
@@ -232,10 +229,6 @@ main h2 {
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
@@ -251,4 +244,24 @@ main h2 {
     footer {
         margin-top: 25px;
     }
+}
+.blog-background {
+    background-color: #AAD181;
+}
+
+.blog-background img {
+    max-height: 200px;
+    float: left;
+    object-fit: contain;
+    margin-right: 12px;
+}
+
+.blog-post {
+    height: 200px;
+    margin: 24px auto;
+}
+
+.title-name {
+    color: #ffffff;
+    text-align: center;
 }

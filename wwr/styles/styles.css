@@ -1,0 +1,46 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #CDDE47;
+}
+
+nav a {
+    text-align: center;
+    color:#528540;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #528540;
+    color: #ffffff;
+}
+
+.home-title {
+    color: #ffffff;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+    background-color: #CDDE47;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #DE7047;
+}

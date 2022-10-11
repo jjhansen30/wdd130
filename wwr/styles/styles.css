@@ -11,6 +11,10 @@ header {
     background-color: #CDDE47;
 }
 
+.logo {
+    width: 80px;
+}
+
 nav a {
     text-align: center;
     color:#528540;
@@ -27,13 +31,44 @@ nav a:hover {
     color: #ffffff;
 }
 
+#hero-image {
+    width: 100%;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
+.icon {
+    width: 80px;
+}
+
+h4 {
+    color:#528540;
+}
+
 .button-box {
     text-align: center;
+    background-color: #ffffff;
+}
+
+.book, .join {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #528540;
+}
+
+.book:hover, .join:hover {
     background-color: #CDDE47;
+    color: #528540;
+}
+
+.msg {
+    background-color: #528540;
+}
+
+.home-grid {
+    background-color: #ffffff;
 }
 
 main section {
@@ -43,4 +78,22 @@ main section {
 #background {
     height: 725px;
     background-color: #DE7047;
+}
+
+footer {
+    background-color: #CDDE47;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #528540;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }

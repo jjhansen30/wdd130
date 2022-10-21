@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@200&display=swap');
+
+:root {
+    /* Color pallet*/
+    --primary-color: #528540;
+    --secondary-color: #CDDE47;
+    --accent1-color: #DE7047;
+    --accent2-color: #FFFFFF;
+  
+    /* Fonts */
+    --heading-font: 'Permanent Marker', 'Brush Script MT';
+    --paragraph-font: 'Poppins', 'Arial';
+  
+    /* Uses of color pallet */
+    --headline-color-on-white: #528540;  /* headlines on a white background */ 
+    --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #528540; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #528540;
+    --nav-link-color: #528540;
+    --nav-background-color: #CDDE47;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #528540;
+  }
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+h2 {
+    margin: 0;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +42,9 @@
 
 body {
     background-color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -13,13 +53,14 @@ header {
 
 .logo {
     width: 80px;
+    padding-top: 5px;
 }
 
 nav a {
     text-align: center;
     color:#528540;
     text-decoration: none;
-
+    padding: 35px;
 }
 
 nav a:hover {
@@ -29,6 +70,8 @@ nav a:hover {
 
 .home-title {
     color: #ffffff;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #hero-image {
@@ -41,6 +84,7 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 h4 {
@@ -56,6 +100,10 @@ h4 {
     text-decoration: none;
     background-color: #ffffff;
     color: #528540;
+    font: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -65,6 +113,13 @@ h4 {
 
 .msg {
     background-color: #528540;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .home-grid {
@@ -73,6 +128,15 @@ h4 {
 
 main section {
     text-align: center;
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 #background {
@@ -82,6 +146,8 @@ main section {
 
 footer {
     background-color: #CDDE47;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -96,4 +162,8 @@ footer a {
 footer a:hover {
     color: #ffffff;
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
